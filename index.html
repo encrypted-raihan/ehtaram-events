@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ehtaram Events — Wedding Made Magical</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,600&family=Montserrat:wght@200;300;400;500&family=Cormorant:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <a class="nav-logo" href="#">Ehtaram <em>Events</em></a>
+    <ul class="nav-links">
+      <li><a href="#story">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#testimonials">Stories</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-cta" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})"><span>Begin Your Story</span></button>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-close" id="mobileClose">Close ✕</button>
+    <a href="#story" class="mobile-link">About</a>
+    <a href="#services" class="mobile-link">Services</a>
+    <a href="#gallery" class="mobile-link">Gallery</a>
+    <a href="#testimonials" class="mobile-link">Stories</a>
+    <a href="#contact" class="mobile-link">Get a Quote</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-reel">
+      <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=1800&q=85" alt="Luxury wedding" id="heroBg">
+    </div>
+    <div class="hero-noise"></div>
+    <div class="hero-content parallax-layer" id="heroContent">
+      <p class="hero-eyebrow">Dubai's Premier Event House</p>
+      <h1 class="hero-title">
+        <span class="line-1">Ehtaram</span>
+        <span class="line-2">Events</span>
+      </h1>
+      <p class="hero-tagline">Wedding Made Magical &nbsp;·&nbsp; UAE &nbsp;·&nbsp; Est. 2019</p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn-gold"><span>Begin Your Story</span></a>
+        <a href="#gallery" class="btn-ghost">Explore Our Work</a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-track"></div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-section">
+    <div class="marquee-inner">
+      <span class="marquee-item">Wedding Decor</span><span class="marquee-dot"> ✦ </span>
+      <span class="marquee-item">Luxury Stages</span><span class="marquee-dot"> ✦ </span>
+      <span class="marquee-item">Entrance Arches</span><span class="marquee-dot"> ✦ </span>
+      <span class="marquee-item">LED Walls</span><span class="marquee-dot"> ✦ </span>
+      <span class="marquee-item">DJ Services</span><span class="marquee-dot"> ✦ </span>
+      <span class="marquee-item">Photo Booths</span><span class="marquee-dot"> ✦ </span>
+      <span class="marquee-item">Corporate Events</span><span class="marquee-dot"> ✦ </span>
+      <span class="marquee-item">Lighting Design</span><span class="marquee-dot"> ✦ </span>
+
+      <span class="marquee-item">Wedding Decor</span><span class="marquee-dot"> ✦ </span>
+      <span class="marquee-item">Luxury Stages</span><span class="marquee-dot"> ✦ </span>
+      <span class="marquee-item">Entrance Arches</span><span class="marquee-dot"> ✦ </span>
+      <span class="marquee-item">LED Walls</span><span class="marquee-dot"> ✦ </span>
+      <span class="marquee-item">DJ Services</span><span class="marquee-dot"> ✦ </span>
+      <span class="marquee-item">Photo Booths</span><span class="marquee-dot"> ✦ </span>
+      <span class="marquee-item">Corporate Events</span><span class="marquee-dot"> ✦ </span>
+      <span class="marquee-item">Lighting Design</span><span class="marquee-dot"> ✦ </span>
+    </div>
+  </div>
+
+<!-- STORY / ABOUT -->
+<section class="story story-centered" id="story">
+
+  <!-- BACKGROUND -->
+  <div class="story-bg">
+
+    <img
+      src="assets/bg-video.gif"
+      alt="Background"
+      class="story-bg-gif"
+    >
+
+    <div class="story-bg-overlay"></div>
+
+    <div class="story-blur blur-1"></div>
+    <div class="story-blur blur-2"></div>
+
+  </div>
+
+  <!-- CONTENT -->
+  <div class="story-content story-content-centered">
+
+    <div class="label-tag sr d1">
+      Our Story
+    </div>
+
+    <h2 class="display-title sr d2">
+      Crafting Moments<br>
+      <em>That Last Forever</em>
+    </h2>
+
+    <div class="gold-rule sr d3"></div>
+
+    <p class="body-text sr d3">
+      Ehtaram Events is Dubai's most trusted luxury event house,
+      bringing six years of unparalleled artistry to every celebration.
+      We don't just plan events — we compose experiences that move people.
+    </p>
+
+    <p class="body-text sr d4">
+      From intimate weddings to grand corporate galas, our team orchestrates
+      every detail with precision — transforming venues into immersive,
+      cinematic worlds that reflect your unique vision.
+    </p>
+
+    <div class="stats-row story-stats">
+
+      <div class="stat-item sr d2">
+        <strong>500+</strong>
+        <span>Events Delivered</span>
+      </div>
+
+      <div class="stat-item sr d3">
+        <strong>UAE</strong>
+        <span>& Beyond</span>
+      </div>
+
+      <div class="stat-item sr d4">
+        <strong>100%</strong>
+        <span>Client Delight</span>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+  <!-- SERVICES -->
+  <section class="services-section" id="services">
+    <div class="services-header">
+      <div>
+        <div class="label-tag sr">What We Offer</div>
+        <h2 class="display-title sr d1">Our <em>Services</em></h2>
+      </div>
+      <p class="services-lead sr d2">Every detail considered, every moment orchestrated. We offer end-to-end event experiences across the UAE and the region.</p>
+    </div>
+    <div class="services-bento sr-scale">
+      <div class="svc svc-a">
+        
+        <span class="svc-num">01</span>
+        <h3 class="svc-title">Wedding Decor</h3>
+        <p class="svc-desc">Bespoke floral arrangements, tablescapes, and décor installations — from intimately romantic to grandly maximalist.</p>
+      </div>
+      <div class="svc svc-b">
+         
+        <span class="svc-num">02</span>
+        <h3 class="svc-title">Lighting & Sound Design</h3>
+        <p class="svc-desc">Atmospheric lighting that transforms space and crystal-clear audio that sets the perfect mood for every ceremony and celebration.</p>
+      </div>
+      <div class="svc svc-c">
+         
+        <span class="svc-num">03</span>
+        <h3 class="svc-title">DJ Services</h3>
+        <p class="svc-desc">World-class DJs curating unforgettable musical journeys from ceremony to dance floor.</p>
+      </div>
+      <div class="svc svc-d">
+         
+        <span class="svc-num">04</span>
+        <h3 class="svc-title">LED Walls</h3>
+        <p class="svc-desc">Stunning high-resolution LED screens and dynamic backdrops that transform any venue.</p>
+      </div>
+      <div class="svc svc-e">
+         
+        <span class="svc-num">05</span>
+        <h3 class="svc-title">Entrance Arches</h3>
+        <p class="svc-desc">Grand floral and sculptural arches that make a breathtaking first impression.</p>
+      </div>
+      <div class="svc svc-f">
+         
+        <span class="svc-num">06</span>
+        <h3 class="svc-title">Photo Booths</h3>
+        <p class="svc-desc">Elegant, Instagram-worthy photobooth setups with instant printing — because memories deserve a beautiful frame that guests can treasure forever.</p>
+      </div>
+      <div class="svc svc-g">
+         
+        <span class="svc-num">07</span>
+        <h3 class="svc-title">Corporate Functions</h3>
+        <p class="svc-desc">Polished, professional event management for brand launches, galas, and corporate celebrations that leave lasting impressions on every attendee.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CINEMATIC SHOWCASE -->
+<!-- INFINITE SHOWCASE MARQUEE -->
+<section class="showcase" id="showcase">
+
+  <div class="showcase-header">
+    <div class="label-tag sr" style="color:var(--gold)">
+      Visual Journey
+    </div>
+
+    <h2 class="display-title sr d1" style="color:var(--white)">
+      A Reel of
+      <em style="color:var(--gold-light);font-style:italic">
+        Moments
+      </em>
+    </h2>
+  </div>
+
+  <div class="marquee-showcase">
+
+    <div class="marquee-track">
+
+      <!-- SET 1 -->
+
+      <div class="showcase-card">
+        <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=1200&q=80">
+        <div class="showcase-overlay">
+          <span>Luxury Floral Stage</span>
+        </div>
+      </div>
+
+      <div class="showcase-card">
+        <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=1200&q=80">
+        <div class="showcase-overlay">
+          <span>Royal Gold Theme</span>
+        </div>
+      </div>
+
+      <div class="showcase-card">
+        <img src="https://images.unsplash.com/photo-1550005809-91ad75fb315f?w=1200&q=80">
+        <div class="showcase-overlay">
+          <span>Crystal & Ivory</span>
+        </div>
+      </div>
+
+      <div class="showcase-card">
+        <img src="https://images.unsplash.com/photo-1478146896981-b80fe463b330?w=1200&q=80">
+        <div class="showcase-overlay">
+          <span>Garden Enchantment</span>
+        </div>
+      </div>
+
+      <div class="showcase-card">
+        <img src="https://images.unsplash.com/photo-1469371670807-013ccf25f16a?w=1200&q=80">
+        <div class="showcase-overlay">
+          <span>Grand Hall Setup</span>
+        </div>
+      </div>
+
+      <!-- DUPLICATE FOR INFINITE LOOP -->
+
+      <div class="showcase-card">
+        <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=1200&q=80">
+        <div class="showcase-overlay">
+          <span>Luxury Floral Stage</span>
+        </div>
+      </div>
+
+      <div class="showcase-card">
+        <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=1200&q=80">
+        <div class="showcase-overlay">
+          <span>Royal Gold Theme</span>
+        </div>
+      </div>
+
+      <div class="showcase-card">
+        <img src="https://images.unsplash.com/photo-1550005809-91ad75fb315f?w=1200&q=80">
+        <div class="showcase-overlay">
+          <span>Crystal & Ivory</span>
+        </div>
+      </div>
+
+      <div class="showcase-card">
+        <img src="https://images.unsplash.com/photo-1478146896981-b80fe463b330?w=1200&q=80">
+        <div class="showcase-overlay">
+          <span>Garden Enchantment</span>
+        </div>
+      </div>
+
+      <div class="showcase-card">
+        <img src="https://images.unsplash.com/photo-1469371670807-013ccf25f16a?w=1200&q=80">
+        <div class="showcase-overlay">
+          <span>Grand Hall Setup</span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- GALLERY -->
+<section class="gallery-section" id="gallery">
+
+  <!-- HEADING -->
+  <div class="gallery-head">
+
+    <div class="label-tag sr">
+      Recent Work
+    </div>
+
+    <h2 class="display-title sr d1">
+      Our
+      <em>Gallery</em>
+    </h2>
+
+    <p class="gallery-sub sr d2">
+      A glimpse into the weddings, celebrations and luxury event experiences
+      crafted by Ehtaram Events across the UAE.
+    </p>
+
+  </div>
+
+  <!-- IMAGES -->
+  <div class="gallery-mosaic sr-scale d2">
+
+    <div class="mosaic-item gm-1">
+      <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=900&q=85" alt="">
+      <div class="mosaic-overlay"></div>
+    </div>
+
+    <div class="mosaic-item gm-2">
+      <img src="https://images.unsplash.com/photo-1606800052052-a08af7148866?w=900&q=85" alt="">
+      <div class="mosaic-overlay"></div>
+    </div>
+
+    <div class="mosaic-item gm-3">
+      <img src="https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=900&q=85" alt="">
+      <div class="mosaic-overlay"></div>
+    </div>
+
+    <div class="mosaic-item gm-4">
+      <img src="https://images.unsplash.com/photo-1469371670807-013ccf25f16a?w=900&q=85" alt="">
+      <div class="mosaic-overlay"></div>
+    </div>
+
+    <div class="mosaic-item gm-5">
+      <img src="https://images.unsplash.com/photo-1478146896981-b80fe463b330?w=900&q=85" alt="">
+      <div class="mosaic-overlay"></div>
+    </div>
+
+    <div class="mosaic-item gm-6">
+      <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=900&q=85" alt="">
+      <div class="mosaic-overlay"></div>
+    </div>
+
+  </div>
+
+  <!-- CTA -->
+  <div class="gallery-bottom sr d3">
+
+    <a href="album.html" class="gallery-explore-btn">
+
+      <span class="gallery-btn-text">
+        Explore Full Album
+      </span>
+
+      <span class="gallery-btn-circle">
+        ↘
+      </span>
+
+    </a>
+
+  </div>
+
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials-section" id="testimonials">
+
+  <div class="testi-bg-text">
+    Stories
+  </div>
+
+  <!-- HEADING -->
+  <div class="testimonials-head">
+
+    <div class="label-tag sr" style="justify-content:center;">
+      Kind Words
+    </div>
+
+    <h2 class="display-title sr d1">
+      Client
+      <em>Stories</em>
+    </h2>
+
+  </div>
+
+  <!-- MARQUEE -->
+  <div class="testimonials-marquee">
+
+    <div class="testimonials-track">
+
+      <!-- CARD -->
+      <div class="story-card">
+
+        <span class="story-quote">
+          “
+        </span>
+
+        <p class="story-text">
+          Ehtaram Events transformed our wedding into something beyond imagination.
+          Every detail felt cinematic and deeply personal.
+        </p>
+
+        <div class="story-stars">
+          ★★★★★
+        </div>
+
+        <div class="story-author">
+          Fatima & Omar
+        </div>
+
+      </div>
+
+      <!-- CARD -->
+      <div class="story-card">
+
+        <span class="story-quote">
+          “
+        </span>
+
+        <p class="story-text">
+          The lighting, stage setup and floral execution were absolutely world-class.
+          Guests still talk about the experience.
+        </p>
+
+        <div class="story-stars">
+          ★★★★★
+        </div>
+
+        <div class="story-author">
+          Khalid Mansouri
+        </div>
+
+      </div>
+
+      <!-- CARD -->
+      <div class="story-card">
+
+        <span class="story-quote">
+          “
+        </span>
+
+        <p class="story-text">
+          Professional, elegant and unbelievably smooth execution.
+          They made our celebration feel timeless.
+        </p>
+
+        <div class="story-stars">
+          ★★★★★
+        </div>
+
+        <div class="story-author">
+          Maryam Al Hamad
+        </div>
+
+      </div>
+
+      <!-- DUPLICATES FOR INFINITE LOOP -->
+
+      <div class="story-card">
+
+        <span class="story-quote">
+          “
+        </span>
+
+        <p class="story-text">
+          Ehtaram Events transformed our wedding into something beyond imagination.
+          Every detail felt cinematic and deeply personal.
+        </p>
+
+        <div class="story-stars">
+          ★★★★★
+        </div>
+
+        <div class="story-author">
+          Fatima & Omar
+        </div>
+
+      </div>
+
+      <div class="story-card">
+
+        <span class="story-quote">
+          “
+        </span>
+
+        <p class="story-text">
+          The lighting, stage setup and floral execution were absolutely world-class.
+          Guests still talk about the experience.
+        </p>
+
+        <div class="story-stars">
+          ★★★★★
+        </div>
+
+        <div class="story-author">
+          Khalid Mansouri
+        </div>
+
+      </div>
+
+      <div class="story-card">
+
+        <span class="story-quote">
+          “
+        </span>
+
+        <p class="story-text">
+          Professional, elegant and unbelievably smooth execution.
+          They made our celebration feel timeless.
+        </p>
+
+        <div class="story-stars">
+          ★★★★★
+        </div>
+
+        <div class="story-author">
+          Maryam Al Hamad
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+  <!-- CONTACT -->
+  <section class="contact-section" id="contact">
+    <div class="contact-visual sr-left">
+      <img src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?w=900&q=85" alt="Wedding">
+      <div class="contact-visual-overlay"></div>
+      <div class="contact-visual-content">
+        <div class="contact-visual-title">Let's Create<em>Magic Together</em></div>
+        <div class="contact-channels">
+          <a href="https://wa.me/971000000000" class="channel-link" target="_blank">
+            <div class="channel-icon">📱</div>
+            <span>WhatsApp — Available 24/7</span>
+          </a>
+          <a href="https://www.instagram.com/ehtaramevents" class="channel-link" target="_blank">
+            <div class="channel-icon">📷</div>
+            <span>@ehtaramevents</span>
+          </a>
+          <a href="mailto:info@ehtaramevents.com" class="channel-link">
+            <div class="channel-icon">✉️</div>
+            <span>info@ehtaramevents.com</span>
+          </a>
+          <div class="channel-link">
+            <div class="channel-icon">📍</div>
+            <span>Dubai, United Arab Emirates</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact-form-pane">
+      <div class="label-tag sr">Get In Touch</div>
+      <h2 class="display-title sr d1">Send Your<br><em>Inquiry</em></h2>
+      <div class="gold-rule sr d2"></div>
+      <div id="formWrap">
+        <form class="form-fields sr d2" id="contactForm" onsubmit="handleSubmit(event)">
+          <div class="f-row">
+            <div class="f-group">
+              <label class="f-label">Your Name</label>
+              <input class="f-input" type="text" placeholder="Full name" required>
+            </div>
+            <div class="f-group">
+              <label class="f-label">Phone / WhatsApp</label>
+              <input class="f-input" type="tel" placeholder="+971 xx xxx xxxx">
+            </div>
+          </div>
+          <div class="f-group">
+            <label class="f-label">Email Address</label>
+            <input class="f-input" type="email" placeholder="your@email.com" required>
+          </div>
+          <div class="f-group">
+            <label class="f-label">Event Type</label>
+            <select class="f-select" required>
+              <option value="" disabled selected>Select event type</option>
+              <option>Wedding</option>
+              <option>Corporate Function</option>
+              <option>Birthday Celebration</option>
+              <option>Engagement Party</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="f-row">
+            <div class="f-group">
+              <label class="f-label">Event Date</label>
+              <input class="f-input" type="date">
+            </div>
+            <div class="f-group">
+              <label class="f-label">Expected Guests</label>
+              <input class="f-input" type="number" placeholder="Approx. count">
+            </div>
+          </div>
+          <div class="f-group">
+            <label class="f-label">Your Vision</label>
+            <textarea class="f-textarea" placeholder="Share details about your dream event..."></textarea>
+          </div>
+          <button type="submit" class="btn-submit"><span>Send Inquiry ✦</span></button>
+        </form>
+        <div class="form-success" id="formSuccess">
+          <span class="form-success-icon">✦</span>
+          <div class="form-success-title">Inquiry Received</div>
+          <p class="form-success-text">Thank you for reaching out. Our team will respond within 24 hours to begin crafting your vision.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a class="nav-logo footer-logo" href="#">Ehtaram <em>Events</em></a>
+        <p>Dubai's premier luxury event management house. Turning visions into unforgettable moments since 2019.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <a href="#story">Our Story</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#testimonials">Client Stories</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <a href="https://www.instagram.com/ehtaramevents" target="_blank">Instagram</a>
+        <a href="https://wa.me/971000000000" target="_blank">WhatsApp</a>
+        <a href="mailto:info@ehtaramevents.com">Email Us</a>
+        <a href="#" onclick="return false">Dubai, UAE</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-copy">© 2025 Ehtaram Events · Dubai, UAE · Wedding Made Magical</span>
+      <div class="footer-social">
+        <a class="social-btn" href="https://www.instagram.com/ehtaramevents" target="_blank">IG</a>
+        <a class="social-btn" href="https://wa.me/971000000000" target="_blank">WA</a>
+        <a class="social-btn" href="mailto:info@ehtaramevents.com">✉</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float -->
+  <a class="wa-float" href="https://wa.me/971000000000" target="_blank" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
